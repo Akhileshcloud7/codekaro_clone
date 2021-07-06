@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+}
+
+.courses_title {
+  text-align: center;
+  max-width: 60%;
+  margin: auto;
+}
+
+.course_card {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  max-width: 60%;
+  margin: auto;
+}
+
+.card {
+  width: 42%;
+  margin: 4rem 0;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  border-radius: 0 0 12px 12px;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+
+.card h1 {
+  font-size: 1.6rem;
+  padding-left: 0.5rem;
+}
+.card p {
+  font-size: 1rem;
+}
+.card img {
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+}
+
+.course_join {
+  margin: 6rem 0 0.5rem 0.4rem;
+  display: flex;
+  align-items: center;
+}
+
+.free {
+  padding: 0.3rem 1rem;
+  border-radius: 10px;
+  margin: 0.2rem;
+  outline: none;
+  border: none;
+}
+.free:nth-child(1) {
+  background: rgb(185, 220, 255);
+  color: rgb(18, 88, 159);
+}
+.free:nth-child(2) {
+  background: rgb(203, 250, 214);
+  color: rgb(43, 187, 20);
+}
+.card:hover:nth-child(2) {
+  transform: rotateZ(1deg);
+}
+
+.card:hover:nth-child(1) {
+  transform: rotateZ(-1deg);
+}

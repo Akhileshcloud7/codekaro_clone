@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+}
+
+.about_ck {
+  width: 60%;
+  margin: auto;
+}
+
+.about_ck h1 {
+  margin: 4rem 0 1rem 0;
+}
+
+.about_ck img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.about_ck p {
+  margin: 2rem 0 0.7rem 0;
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+
+.founder_profile {
+  margin: 8rem auto 3rem auto;
+  max-width: 70%;
+  text-align: center;
+}
+
+.founder_profile h1 {
+  margin-bottom: 3rem;
+  font-size: 2.4rem;
+}
+
+.coders {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 120%;
+}
+
+.profile img {
+  width: 120px;
+  border-radius: 50%;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  text-align: left;
+  margin: 0 0.8rem;
+}
